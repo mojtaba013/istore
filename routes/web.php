@@ -14,5 +14,6 @@ Route::get('/', function () {
 //Route::post('/insert',[ProductController::class,'insert']);
 Route::post('',[ProductController::class,'insert']);
 Route::post('xfgdfg',[ProductController::class,'insert']);
+Route::post('a',[ProductController::class,'a']);
 
 
