@@ -13,5 +13,6 @@ Route::get('/', function () {
 //Route::get('/{id?}',[ProductController::class,'index']);
 //Route::post('/insert',[ProductController::class,'insert']);
 Route::post('',[ProductController::class,'insert']);
+Route::post('',[ProductController::class,'insert']);
 
 
